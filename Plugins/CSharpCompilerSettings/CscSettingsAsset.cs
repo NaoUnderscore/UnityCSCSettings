@@ -109,14 +109,14 @@ namespace Coffee.CSharpCompilerSettings
         [SerializeField] private CSharpLanguageVersion m_LanguageVersion = CSharpLanguageVersion.Latest;
         [SerializeField] private bool m_EnableLogging = false;
         [SerializeField] private Nullable m_Nullable = Nullable.Disable;
-        [SerializeField] private NugetPackage m_CompilerPackage = new NugetPackage("Microsoft.Net.Compilers", "3.5.0", NugetPackage.CategoryType.Compiler);
+        [SerializeField] private NugetPackage m_CompilerPackage = new NugetPackage("Microsoft.Net.Compilers", "3.9.0", NugetPackage.CategoryType.Compiler);
         [SerializeField] private AssemblyFilter m_CompilerFilter = new AssemblyFilter(true, new[] { "Assets/", "!Assets/Standard Assets/", "!Packages/" });
         [SerializeField] private NugetPackage[] m_AnalyzerPackages = new NugetPackage[0];
         [SerializeField] private AssemblyFilter m_AnalyzerFilter = new AssemblyFilter(true, new[] { "Assets/", "!Assets/Standard Assets/", "!Packages/" });
         [SerializeField] private string[] m_SymbolModifier = new string[0];
         [SerializeField] [Obsolete] private bool m_UseDefaultCompiler = true;
         [SerializeField] [Obsolete] private string m_PackageName = "Microsoft.Net.Compilers";
-        [SerializeField] [Obsolete] private string m_PackageVersion = "3.5.0";
+        [SerializeField] [Obsolete] private string m_PackageVersion = "3.9.0";
         [SerializeField] [Obsolete] private bool m_EnableNullable = false;
         [SerializeField] [Obsolete] private string m_ModifySymbols = "";
 
