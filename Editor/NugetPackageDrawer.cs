@@ -126,10 +126,10 @@ namespace Coffee.CSharpCompilerSettings
 
         public List<NugetPackage> m_Packages = new List<NugetPackage>()
         {
-            new NugetPackage("Microsoft.Net.Compilers.Toolset", "3.5.0", NugetPackage.CategoryType.Compiler),
-            new NugetPackage("Microsoft.Net.Compilers", "3.5.0", NugetPackage.CategoryType.Compiler),
-            new NugetPackage("OpenSesame.Net.Compilers.Toolset", "3.5.0", NugetPackage.CategoryType.Compiler),
-            new NugetPackage("OpenSesame.Net.Compilers", "3.5.0", NugetPackage.CategoryType.Compiler),
+            new NugetPackage("Microsoft.Net.Compilers.Toolset", "3.9.0", NugetPackage.CategoryType.Compiler),
+            new NugetPackage("Microsoft.Net.Compilers", "3.9.0", NugetPackage.CategoryType.Compiler),
+            new NugetPackage("OpenSesame.Net.Compilers.Toolset", "3.9.0", NugetPackage.CategoryType.Compiler),
+            new NugetPackage("OpenSesame.Net.Compilers", "3.9.0", NugetPackage.CategoryType.Compiler),
             new NugetPackage("Roslynator.Analyzers", "3.0.0", NugetPackage.CategoryType.Analyzer),
             new NugetPackage("Roslynator.CodeAnalysis.Analyzers", "1.0.0", NugetPackage.CategoryType.Analyzer),
             new NugetPackage("Roslynator.Formatting.Analyzers", "1.0.0", NugetPackage.CategoryType.Analyzer),
