@@ -158,7 +158,7 @@ Find the `manifest.json` file in the `Packages` directory in your project and ed
 ```
 To update the package, change suffix `#{version}` to the target version.
 
-* e.g. `"com.coffee.csharp-compiler-settings": "https://github.com/mob-sakai/CSharpCompilerSettingsForUnity.git#1.0.0",`
+* e.g. `"com.coffee.csharp-compiler-settings": "https://github.com/NaoUnderscore/UnityCSCSettings.git#1.0.0",`
 
 Or, use [UpmGitExtension](https://github.com/mob-sakai/UpmGitExtension) to install and update the package.
 
