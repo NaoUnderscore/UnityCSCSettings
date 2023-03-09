@@ -151,7 +151,7 @@ Find the `manifest.json` file in the `Packages` directory in your project and ed
 ```
 {
   "dependencies": {
-    "com.coffee.csharp-compiler-settings": "https://github.com/mob-sakai/CSharpCompilerSettingsForUnity.git",
+    "com.coffee.csharp-compiler-settings": "https://github.com/NaoUnderscore/UnityCSCSettings.git",
     ...
   },
 }
